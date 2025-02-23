@@ -46,17 +46,7 @@ Make sure to set up your AWS credentials correctly in the **appsettings.json** f
 
 > ⚠️ **Important:** The `appsettings.Development.json` file is ignored by `.gitignore` to prevent credential leaks.
 
-### 3️⃣ **Running the Project**
-```sh
-dotnet run --project src/Presentation
-```
-
-### 4️⃣ **Running Tests**
-```sh
-dotnet test
-```
 
 ---
 
-✉️ **Contact:** If you have any questions or suggestions, feel free to open an issue or contact me via [LinkedIn](https://www.linkedin.com/in/flavio-santos-ti/).
-
+✉️ **Contact:** Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/flavio-santos-ti/).
