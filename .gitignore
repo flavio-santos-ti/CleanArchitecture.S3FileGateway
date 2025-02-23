@@ -108,3 +108,5 @@ _ReSharper.Caches/
 # Ignorar arquivos executáveis e bibliotecas
 *.exe
 *.dll
+
+**/appsettings.Development.json
