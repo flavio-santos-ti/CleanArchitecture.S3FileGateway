@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3FileGateway.Api", "S3FileGateway.Api\S3FileGateway.Api.csproj", "{D6D18B3D-DB34-409C-B1A5-79E86E5D1E90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{62E59FAE-00FA-45D4-8650-AA43FADF7171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3FileGateway.Domain", "S3FileGateway.Domain\S3FileGateway.Domain.csproj", "{24C128B8-B009-46CC-980B-E25AA221DC33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3FileGateway.Application", "S3FileGateway.Application\S3FileGateway.Application.csproj", "{7CB0FD7C-9C59-4AAD-AA94-FD9EEEE037EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3FileGateway.Infrastructure", "S3FileGateway.Infrastructure\S3FileGateway.Infrastructure.csproj", "{342E4D59-606C-4A5A-9841-EDE4F22B1FD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Infrastructure", "02 - Infrastructure", "{D4AFA7C5-B78E-4067-9BD1-96E397BFDD31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Application", "03 - Application", "{09B893CC-F431-485E-AB99-1F904D219130}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Domain", "04 - Domain", "{4886AC41-59A1-4883-BB24-A3B72F644C2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Config", "05 - Config", "{CF65549C-C5E9-409B-AD97-C840E02E514F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3FileGateway.Config", "S3FileGateway.Config\S3FileGateway.Config.csproj", "{CD428E0F-2A75-4B46-BD51-5794C2FCB71D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6D18B3D-DB34-409C-B1A5-79E86E5D1E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D18B3D-DB34-409C-B1A5-79E86E5D1E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D18B3D-DB34-409C-B1A5-79E86E5D1E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D18B3D-DB34-409C-B1A5-79E86E5D1E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C128B8-B009-46CC-980B-E25AA221DC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C128B8-B009-46CC-980B-E25AA221DC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C128B8-B009-46CC-980B-E25AA221DC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C128B8-B009-46CC-980B-E25AA221DC33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB0FD7C-9C59-4AAD-AA94-FD9EEEE037EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB0FD7C-9C59-4AAD-AA94-FD9EEEE037EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB0FD7C-9C59-4AAD-AA94-FD9EEEE037EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB0FD7C-9C59-4AAD-AA94-FD9EEEE037EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{342E4D59-606C-4A5A-9841-EDE4F22B1FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342E4D59-606C-4A5A-9841-EDE4F22B1FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342E4D59-606C-4A5A-9841-EDE4F22B1FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342E4D59-606C-4A5A-9841-EDE4F22B1FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD428E0F-2A75-4B46-BD51-5794C2FCB71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD428E0F-2A75-4B46-BD51-5794C2FCB71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD428E0F-2A75-4B46-BD51-5794C2FCB71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD428E0F-2A75-4B46-BD51-5794C2FCB71D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6D18B3D-DB34-409C-B1A5-79E86E5D1E90} = {62E59FAE-00FA-45D4-8650-AA43FADF7171}
+		{24C128B8-B009-46CC-980B-E25AA221DC33} = {4886AC41-59A1-4883-BB24-A3B72F644C2F}
+		{7CB0FD7C-9C59-4AAD-AA94-FD9EEEE037EC} = {09B893CC-F431-485E-AB99-1F904D219130}
+		{342E4D59-606C-4A5A-9841-EDE4F22B1FD6} = {D4AFA7C5-B78E-4067-9BD1-96E397BFDD31}
+		{CD428E0F-2A75-4B46-BD51-5794C2FCB71D} = {CF65549C-C5E9-409B-AD97-C840E02E514F}
+	EndGlobalSection
+EndGlobal
